@@ -1,5 +1,5 @@
 - name: SiteName
-  value: QPixel
+  value: ICMOS-Forums
   value_type: string
   category: SiteDetails
   description: >
@@ -60,7 +60,7 @@
     Supports Markdown, including a subset of HTML.
 
 - name: AdministratorContactEmail
-  value: contact@example.com
+  value: cmos-service@tu-braunschweig.de
   value_type: string
   category: SiteDetails
   description: >
@@ -181,7 +181,7 @@
     The maximum number of characters an edit comment may contain. Defaults to 255.
 
 - name: MaxUploadSize
-  value: 2MB
+  value: 20MB
   value_type: string
   category: AdvancedSettings
   description: >
@@ -204,14 +204,14 @@
     The minimum score a question must have to qualify for selection for the Interesting email subscription.
 
 - name: SubscriptionSenderName
-  value: Codidact Subscriptions
+  value: ICMOS-Forums Subscriptions
   value_type: string
   category: Email
   description: >
     The name of the sender of subscription emails.
 
 - name: SubscriptionSenderEmail
-  value: subscriptions@codidact.com
+  value: cmos-service@tu-braunschweig.de
   value_type: string
   category: Email
   description: >
@@ -219,14 +219,14 @@
     Make sure your server is allowed to send email from this address, or your mails will not be received.
 
 - name: ModeratorDistributionListSenderName
-  value: Codidact Admins
+  value: ICMOS-Forums Admins
   value_type: string
   category: Email
   description: >
     The name of the sender of the moderator distribution list.
 
 - name: ModeratorDistributionListSenderEmail
-  value: moderators-noreply@codidact.com
+  value: cmos-service@tu-braunschweig.de
   value_type: string
   category: Email
   description: >
@@ -237,7 +237,7 @@
   value: >
     <hr/>
     <p><em>Thanks!</em></p>
-    <p><em>Your Friendly Neighbourhood Codidactyl</em></p>
+    <p><em>Your ICMOS-Forums Admins</em></p>
   value_type: text
   category: Email
   community_id: ~
@@ -245,7 +245,7 @@
     Friendly footer to add to emails such as new user confirmation instructions. Markdown allowed.
 
 - name: NoReplySenderName
-  value: Codidact
+  value: ICMOS-Forums
   value_type: string
   category: Email
   description: >
@@ -253,7 +253,7 @@
     (see NoReplySenderName in <a href="/admin/settings/global">global site settings</a> for details)
 
 - name: NoReplySenderName
-  value: Codidact
+  value: ICMOS-Forums
   value_type: string
   category: Email
   community_id: ~
@@ -261,7 +261,7 @@
     The name of the sender of no-reply emails.
 
 - name: NoReplySenderEmail
-  value: noreply@codidact.com
+  value: cmos-service@tu-braunschweig.de
   value_type: string
   category: Email
   description: >
@@ -269,7 +269,7 @@
     (see NoReplySenderEmail in <a href="/admin/settings/global">global site settings</a> for details).
 
 - name: NoReplySenderEmail
-  value: noreply@codidact.com
+  value: cmos-service@tu-braunschweig.de
   value_type: string
   category: Email
   community_id: ~
@@ -279,28 +279,28 @@
     Make sure your server is allowed to send email from this address, or your mails will not be received.
 
 - name: DonationSupportReceiverName
-  value: Codidact Support
+  value: ICMOS-Forums Support
   value_type: string
   category: Email
   description: >
     The name of the donation support email address.
 
 - name: DonationSupportReceiverEmail
-  value: support@codidact.com
+  value: cmos-service@tu-braunschweig.de
   value_type: string
   category: Email
   description: >
     The (real) address to receive donation support emails on. Used for users who want to reply to donation emails.
 
 - name: DonationSenderName
-  value: Codidact Donations
+  value: ICMOS-Forums Donations
   value_type: string
   category: Email
   description: >
     The name of the sender of donation related emails.
 
 - name: DonationSenderEmail
-  value: donations-support@codidact.com
+  value: cmos-service@tu-braunschweig.de
   value_type: string
   category: Email
   description: >
@@ -308,28 +308,28 @@
     Make sure your server is allowed to send email from this address, or your mails will not be received.
 
 - name: SupportReceiverName
-  value: Codidact Support
+  value: ICMOS-Forums Support
   value_type: string
   category: Email
   description: >
     The name of the donation support email address.
 
 - name: SupportReceiverEmail
-  value: info@codidact.org
+  value: cmos-service@tu-braunschweig.de
   value_type: string
   category: Email
   description: >
     The (real) address to receive support emails on.
 
 - name: AllUsersSenderName
-  value: Codidact Team
+  value: ICMOS-Forums Team
   value_type: string
   category: Email
   description: >
     The name of the sender of emails sent to all users of the network via the admin tools.
 
 - name: AllUsersSenderEmail
-  value: allusers-noreply@codidact.org
+  value: cmos-service@tu-braunschweig.de
   value_type: string
   category: Email
   description: >
@@ -337,7 +337,7 @@
     Make sure your server is allowed to send email from this address, or your mails will not be received.
 
 - name: AllUsersReplyToEmail
-  value: info@codidact.org
+  value: cmos-service@tu-braunschweig.de
   value_type: string
   category: Email
   description: >
