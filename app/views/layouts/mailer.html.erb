@@ -18,20 +18,5 @@
 <div class="container">
   <%= yield %>
 </div>
-<div class="footer">
-  <div class="footer--container container">
-    <p>&copy; 2020&mdash; The Codidact Foundation</p>
-    <p>
-      71&ndash;75 Shelton Street<br/>
-      London, UK<br/>
-      WC2H 9JQ
-    </p>
-    <p>
-      <a href="mailto:<%= SiteSetting['SupportReceiverEmail'] || 'info@codidact.org' %>">
-        <%= SiteSetting['SupportReceiverEmail'] || 'info@codidact.org' %>
-      </a>
-    </p>
-  </div>
-</div>
 </body>
 </html>
