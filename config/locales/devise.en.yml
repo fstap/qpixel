@@ -18,11 +18,11 @@ en:
       unconfirmed: "You have to confirm your email address before continuing."
     mailer:
       confirmation_instructions:
-        subject: "New Codidact account confirmation instructions"
+        subject: "New ICMOS-Forums account confirmation instructions"
       reset_password_instructions:
-        subject: "Codidact reset password instructions"
+        subject: "ICMOS-Forums reset password instructions"
       unlock_instructions:
-        subject: "Codidact unlock instructions"
+        subject: "ICMOS-Forums unlock instructions"
       password_change:
         subject: "Password Changed"
     omniauth_callbacks:
